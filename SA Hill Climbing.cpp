@@ -123,7 +123,7 @@ int tile_Ordering(int** current_state,int** goal_state,int move)
 //----------------------------------------------------------------------------------------------------------
 void steepestAscentHillClimbing( int** start_state, int** goal_state,int former_move)
 {
-	int arr[4] = {50,50,50,50};
+	int arr[4] = {100,100,100,100};
     cout<<"--------------------------------------------------------------------------------"<<endl;
     for(int i=0;i<3;i++)
     {
